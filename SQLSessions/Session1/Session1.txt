@@ -1,0 +1,61 @@
+
+Dot Net Full Stack Developer
+
+
+Course Overview
+
+
+C#  
+Asp.Net 
+MVC
+SQL Server
+
+Webservice / WCF / WebAPI
+
+.NetCore
+Angular
+HTML
+CSS
+Bootstrap
+
+
+Design Patterns
+Solid Principles
+
+Testing Tools
+
+Postman
+Fiddler
+
+Git / TFS
+
+
+
+UI - Front End  User Interface HTML,CSS, Bootsrap,Angular,Angular.JS
+
+MiddleLayer -/ Backend  C# / Patterns / WebAPI / WCF / 
+
+
+Database  - SQL Server
+
+
+
+SQL Server Session 
+
+Data management
+Security
+Reliable
+
+SSMS -- SQL Server Mangment Tool Query Create table SP 
+SQL -- Structure Query Language Querying the data
+
+	
+How to connect to the SQL Server using SQL Server Management Studio?
+Understanding the Server Type available in SQL Server.
+Understanding the Authentication while connecting with the database.
+Windows Authentication.
+SQL Server Authentication.
+
+
+
+

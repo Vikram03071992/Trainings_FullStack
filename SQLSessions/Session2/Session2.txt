@@ -1,0 +1,61 @@
+
+From - Session 1
+
+Task: Verify installed SQL Server & SSMS
+1.	Connect to your local SQL Server
+
+
+
+Course Overview
+
+How to connect to the SQL Server using SQL Server Management Studio?
+Understanding the Server Type available in SQL Server.
+Understanding the Authentication while connecting with the database.
+Windows Authentication.
+SQL Server Authentication.
+
+
+Session- 2
+
+Installtion SSMS / SQL server
+
+Understanding the Different Types of Database in SQL Server.
+
+
+Database types
+
+System Databases
+
+User Defined Database
+
+Alter Database DBManualQuery Modify Name=UpdateManualQueryDatabase
+
+Execute sp_renameDB UpdateManualQueryDatabase,DBManualQuery
+
+Drop Database DemoSessions
+
+--Alter Database DemoSessions set Single_User
+
+
+Create Database DBManualQuery
+
+Alter Database DBManualQuery Modify Name=UpdateManualQueryDatabase
+
+Understanding the different mechanisms to create, alter and drop databases in SQL Server.
+How to create a database graphically?
+How to create a database using the query?
+Understanding the Query to Alter and Drop database in SQL Server.
+
+
+
+
+SQL Commands
+
+
+Session 2
+2.	Create a smapleDB database using graphical way
+
+
+
+
+
