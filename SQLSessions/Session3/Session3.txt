@@ -1,0 +1,144 @@
+
+Session-3
+
+Understanding the different mechanisms to create, alter and drop databases in SQL Server.
+How to create a database graphically?
+How to create a database using the query?
+Understanding the Query to Alter and Drop database in SQL Server.
+
+
+
+
+
+SQL Commands
+
+What Is SQL ?
+
+Strucure Query Language 
+
+Database connection using langualg MSSQLServer  /Oracle 
+
+
+- English Oriented
+
+Create Table <TableName>
+
+SQL Sub Languages / Its part of SQL but divided in some external group
+
+DDl  - Data Defination Language - 5 commands
+
+--Create the Defination of any objects
+
+Create -- Create the any objects in database
+
+Alter -- Modify the existing objects table/Database/triggers/functions
+
+Drop -- Drop any objects from Databse
+
+Sp_Rename -- To change name of the any SQL Objects 
+
+Truncate --CLear the all data from Table without Defination
+
+
+Session 3 SSMS Noted Notes
+
+
+
+
+--Create , Alter ,Drop ,Truncate ,SP_Rename
+
+--Create Table SQLCommands
+--(
+--  CmdID Int,
+--  CmdDescription varchar(15)
+--)
+
+
+--Alter table SQLCommands
+--Alter Column CmdDescription VARCHAR(15)
+
+select * from SQLCommands
+
+--Alter table SQLCommands
+--ADD CmdType VARCHAR(15)
+
+
+--insert into SQLCommands
+--(CmdID,CmdDescription)
+--values(1,'test')
+
+
+--insert into SQLCommands
+--(CmdID,CmdDescription)
+--values(2,'test')
+
+
+--insert into SQLCommands
+--(CmdID,CmdDescription)
+--values(3,'test')
+
+--Alter table SQLCommands
+--Drop  Column CmdType 
+
+--truncate table SQLCommands
+
+--SP_Rename 'SQLCommands','SQLCommandsRename'
+
+
+--Create Table SQL_Commands1
+--(
+--  CmdID Int,
+--  CmdDescription varchar(15)
+--)
+
+
+
+--Diff between Truncate and Delete Command  ? 
+
+
+-- DML  - Data Manipulation Language
+
+-- Insert , Update ,Delete
+
+
+--insert into SQLCommands
+--(CmdID,CmdDescription)
+--values(4,'test4')
+
+
+--insert into SQLCommands
+--values(5,'test5')
+
+--Update SET is setting the value for Existing columns
+
+--Select * from SQLCommands
+
+--Update SQLCommands SET CmdDescription = 'TEST' where CmdID = 1
+
+--Delete Delete the rows on based coditions
+
+--Begin Tran
+--Select * from SQLCommands
+--Delete from SQLCommands
+--truncate table SQLCommands
+--Select * from SQLCommands
+--Commit Tran
+-- Rollback Tran
+
+--DQL -- Data Query Language
+
+-- Select 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
